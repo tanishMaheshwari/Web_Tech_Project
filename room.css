@@ -11,10 +11,13 @@ body {
 .nav {
   display: flex;
   vertical-align: middle;
+  width: 100%;
+  /* flex-direction: row-reverse; */
 }
 
 .nav-links-container {
   display: flex;
+  width: 100%;
 }
 
 .nav-links {
@@ -104,6 +107,12 @@ body {
   justify-content: right;
   padding-bottom: 10px;
   margin-bottom: 5px;
+  width: 100%;
+}
+.navi-wrapper {
+  /* margin-right: 100px; */
+  float: right;
+  margin-left: 1000px;
 }
 .navigation a {
   position: relative;
